@@ -3,7 +3,9 @@ const dotenv = require('dotenv');
 const axios = require('axios');
 const path = require('path');
 const cors = require('cors');
-const { createCanvas } = require('canvas');
+// Instead of: const { createCanvas } = require('canvas');
+const { createCanvas } = require('@napi-rs/canvas');
+
 
 // Load environment variables
 dotenv.config();
