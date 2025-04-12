@@ -4,6 +4,7 @@
   "main": "script.js",
   "scripts": {
     "start": "node index.js",
+    "postinstall": "npm install canvas --build-from-source",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
